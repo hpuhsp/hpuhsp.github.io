@@ -1,23 +1,46 @@
-title: 个人博客
-description: 分享 Kiro 学习历程和技术心得
+title: Kiro 学习之旅
+description: 分享 Kiro AI 编程助手的学习历程和实践心得
 author: hpuhsp
 email: your-email@example.com
 url: https://hpuhsp.github.io
+baseurl: ""
 
 # Jekyll settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Markdown processor
 markdown: kramdown
+highlighter: rouge
 
 # Permalink structure
 permalink: /:year/:month/:day/:title/
+
+# Minima theme settings
+minima:
+  skin: auto
+  social_links:
+    github: hpuhsp
+    # twitter: your_username
+    # linkedin: your_username
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# Navigation
+header_pages:
+  - about.md
+  - archive.md
 
 # Collections
 collections:
   posts:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+
+# SEO settings
+lang: zh-CN
+timezone: Asia/Shanghai
