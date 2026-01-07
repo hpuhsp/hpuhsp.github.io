@@ -1,0 +1,23 @@
+title: 个人博客
+description: 分享 Kiro 学习历程和技术心得
+author: hpuhsp
+email: your-email@example.com
+url: https://hpuhsp.github.io
+
+# Jekyll settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
