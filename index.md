@@ -53,7 +53,7 @@ title: 首页
   
   {% if site.posts.size > 6 %}
     <div class="view-all">
-      <a href="/archive/" class="btn">查看所有文章</a>
+      <a href="/archive/" class="btn">查看历史文章</a>
     </div>
   {% endif %}
 </div>

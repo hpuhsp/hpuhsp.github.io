@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 文章归档
+title: 历史文章
 permalink: /archive/
 ---
 

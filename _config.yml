@@ -33,7 +33,6 @@ show_excerpts: true
 # Navigation
 header_pages:
   - about.md
-  - archive.md
 
 # Collections
 collections:
